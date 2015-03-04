@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +7,11 @@
     <title>No pasaran!</title>
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      div.progress {width: 300px;}
+    </style>
   </head>
-  <body>
+  <body style="background-color:#FFFFCC;">
     <nav class="navbar navbar-default navbar-inverse">
       <div class="container-fluid">
         <!-- Brand and toggle get grouped for better mobile display -->
@@ -19,41 +22,118 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="#">Brand</a>
+          <a class="navbar-brand" href="#">Главная</a>
         </div>
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
-            <li class="active"><a href="#">Eqip <span class="sr-only">(current)</span></a></li>
-            <li><a href="index.html">Map</a></li>
+            <li><a href="#">Форумы</a></li>
+            <li><a href="#">Чат</a></li>
+            <li><a href="rules.html">Правила</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="https://github.com/Sandromor/NoPasaran/wiki">Wiki</a></li>
             </li>
           </ul>
 
           <ul class="nav navbar-nav navbar-right">
-            <li><a href="#">Exit</a></li>
+            <li><a href="profile.html">Профиль</a></li>
+            <li><a href="autorisation.html">Выход</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
     </nav>
 
-    <table class="table table-hover">
-      <thead>
-        <tr>
-          <td>Item</td>
-          <td>Action</td>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Mosin mod. 1930</td>
-          <td><button class="btn">Sold</button></td>
-        </tr>
-        <tr>
-          <td>Nagan mod. 1895</td>
-          <td><button class="btn">Sold</button></td>
-        </tr>
-      </tbody>
-    </table>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="col-md-2"> <!--Sidebar content-->
+          <li><span class="glyphicon glyphicon-user"></span><a href="index2.html"> Персонаж</a></li>
+          <li><span class="glyphicon glyphicon-briefcase"></span><a href="equip.html">  Экипировка</a></li>
+          <li><span class="glyphicon glyphicon-tasks"></span><a href="parameters.html"> Навыки</a></li>
+          <li><span class="glyphicon glyphicon-globe"></span><a href="map.html"> Карта</a></li>
+          <li><span class="glyphicon glyphicon-exclamation-sign"></span><a href="quests.html"> Задания</a></li>
+          <li><span class="glyphicon glyphicon-flag"></span><a href="clan.html"> Полк</a></li>
+          <li><span class="glyphicon glyphicon-thumbs-up"></span><a href="friends.html"> Друзья</a></li>
+        </div>
+        <div class="col-md-10"> <!--Body content-->
+          <div><b>Текущая экипировка</b></div>
+          <p></p>
+              <table border="0" cellspacing="1" cellpadding="5" width="700" style="border-bottom:1px solid #003300; border-top:1px solid #003300;">
+                <thead>
+                  <tr>
+                    <td>Ячейка</td>
+                    <td>Предмет</td>
+                    <td>Действие</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>Левая рука </td>
+                    <td> Machinenpistolen 28</td>
+                    <td><button class="btn">Снять</button></td>
+                    <td><span class="glyphicon glyphicon-circle-arrow-down"></span></td>
+                    <td><span class="glyphicon glyphicon-wrench"></span></td>
+                  </tr>
+                  <tr>
+                    <td>Правая рука </td>
+                    <td> Machinenpistolen 28</td>
+                    <td><button class="btn">Снять</button></td>
+                    <td><span class="glyphicon glyphicon-circle-arrow-down"></span></td>
+                    <td><span class="glyphicon glyphicon-wrench"></span></td>
+                  </tr>
+                  <tr>
+                    <td>Головной убор </td>
+                    <td> Испанский берет</td>
+                    <td><button class="btn">Снять</button></td>
+                  </tr>
+                  <tr>
+                    <td>Одежда </td>
+                    <td> Тельняшка</td>
+                    <td><button class="btn">Снять</button></td>
+                  </tr>
+                  <tr>
+                    <td>Штаны </td>
+                    <td> Моряцкие штаны</td>
+                    <td><button class="btn">Снять</button></td>
+                  </tr>
+                  <tr>
+                    <td>Обувь </td>
+                    <td> Туфли</td>
+                    <td><button class="btn">Снять</button></td>
+                  </tr>
+                  <tr>
+                    <td>Плащ </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Пояс </td>
+                    <td> Ремень с пряжкой</td>
+                    <td><button class="btn">Снять</button></td>
+                    <td><span class="glyphicon glyphicon-wrench"></span></td>
+                  </tr>
+                  <tr>
+                    <td>Сумка </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Рюкзак </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                  <tr>
+                    <td>Аксессуар </td>
+                    <td></td>
+                    <td></td>
+                  </tr>
+                </tbody>
+              </table>
+          <p></p>
+          <div><b>Предметы с собой [2/25]</b></div>
+          <p></p>
+        </div>
+      </div> 
+    </div>     
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
