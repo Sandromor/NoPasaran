@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>No pasaran!</title>
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <style type="text/css">
+      div.progress {width: 300px;}
+    </style>
+    
+
+  </head>
+  <body style="background-color:#FFFFCC;">
+    <nav class="navbar navbar-default navbar-inverse">
+      <div class="container-fluid">
+        <!-- Brand and toggle get grouped for better mobile display -->
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="#">Главная</a>
+        </div>
+        <!-- Collect the nav links, forms, and other content for toggling -->
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+            <li><a href="#">Форумы</a></li>
+            <li><a href="#">Чат</a></li>
+            <li><a href="rules.html">Правила</a></li>
+            <li><a href="#">Помощь</a></li>
+            <li><a href="https://github.com/Sandromor/NoPasaran/wiki">Wiki</a></li>
+            </li>
+          </ul>
+
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="profile.html">Профиль</a></li>
+            <li><a href="autorisation.html">Выход</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
+      </div><!-- /.container-fluid -->
+    </nav>
+    <div class="container-fluid">
+      <div class="row-fluid">
+        <div class="col-md-2"> <!--Sidebar content-->
+          <li><span class="glyphicon glyphicon-user"></span><a href="index2.html"> Персонаж</a></li>
+          <li><span class="glyphicon glyphicon-briefcase"></span><a href="equip.html">  Экипировка</a></li>
+          <li><span class="glyphicon glyphicon-tasks"></span><a href="parameters.html"> Навыки</a></li>
+          <li><span class="glyphicon glyphicon-globe"></span><a href="map.html"> Карта</a></li>
+          <li><span class="glyphicon glyphicon-exclamation-sign"></span><a href="quests.html"> Задания</a></li>
+          <li><span class="glyphicon glyphicon-flag"></span><a href="clan.html"> Полк</a></li>
+          <li><span class="glyphicon glyphicon-thumbs-up"></span><a href="friends.html"> Друзья</a></li>
+        </div>
+        <div class="col-md-10"> <!--Body content-->
+          <div><b>Активные задания</b></div>
+          <p></p>
+          <table>
+            <tbody>
+              <tr>
+                <td>
+                  <span class="label label-default">Ежедневные</span>
+                  <span class="badge">1</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><u>Квестодатель</u>: дед Пабло</br><u>Описание</u>: старый ворчливый дед Пабло, жалуясь на больную спину, просил разобраться вас с беспокоящими его скот волками, живущими в окрестном лесу.</br><u>Задание</u>: необходимо уничтожить 5 волков</br><u>Процесс</u>: 0/5</p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="label label-primary">Сюжетные</span>
+                  <span class="badge">1</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><u>Квестодатель</u>: полковник Лебедев</br><u>Описание</u>: необходимо, участвуя от лица боевой группы добровольцев Коминтерна, разобраться с группой анархистов, бесчинствующих на севере Испании.</br><u>Задание</u>:</br><s>1. Обсудить проблему с главой местного отделения Коминтерна;</s></br>2. Связаться с Педро, заведующим одним из баров г. Мадрида;</br></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="label label-info">Второстепенные</span>
+                  <span class="badge">2</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><u>Квестодатель</u>: команданте Мартинес</br><u>Описание</u>: По всему городу происходят нападения на девушек. Нужно выяснить, что за маньяк орудует в округе.</br><u>Задание</u>: защитить медсестру Габриеллу в местном госпитале</br></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><u>Квестодатель</u>: команданте Мартинес</br><u>Описание</u>: Этой ночью предстоит особый крупный завоз боеприпасов на городской склад, расположенный на Calle de Industrial.</br><u>Задание</u>: участвовать в патрулировании Calle de Industrial</br></p>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <span class="label label-danger">Фронтовые</span>
+                  <span class="badge">1</span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <p><u>Квестодатель</u>: <a href="#">Player1</a></br><u>Описание</u>: Нужно больше железа для производства автотехники. Нужно защитить наши шахты в Андалусии любой ценой.</br><u>Задание</u>:</br>Победить в бою за шахту (квадрат D)</br></p>
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div> 
+    </div>     
+    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <!-- Include all compiled plugins (below), or include individual files as needed -->
+    <script src="js/bootstrap.min.js"></script>
+  </body>
+</html>
