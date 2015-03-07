@@ -28,6 +28,7 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
           <ul class="nav navbar-nav">
             <li><a href="#">Форумы</a></li>
+            <li><a href="#">Почта <span class="badge">0</span></a></li>
             <li><a href="#">Чат</a></li>
             <li><a href="rules.html">Правила</a></li>
             <li><a href="#">Помощь</a></li>
@@ -49,12 +50,50 @@
           <li><span class="glyphicon glyphicon-user"></span><a href="index2.html"> Персонаж</a></li>
           <li><span class="glyphicon glyphicon-briefcase"></span><a href="equip.html">  Экипировка</a></li>
           <li><span class="glyphicon glyphicon-tasks"></span><a href="parameters.html"> Навыки</a></li>
+          <li><span class="glyphicon glyphicon-plane"></span><a href="property.html"> Имущество</a></li>
           <li><span class="glyphicon glyphicon-globe"></span><a href="map.html"> Карта</a></li>
           <li><span class="glyphicon glyphicon-exclamation-sign"></span><a href="quests.html"> Задания</a></li>
           <li><span class="glyphicon glyphicon-flag"></span><a href="clan.html"> Полк</a></li>
+          <li><span class="glyphicon glyphicon-chevron-up"></span><a href="headquarters.html"> Командование</a></li>
           <li><span class="glyphicon glyphicon-thumbs-up"></span><a href="friends.html"> Друзья</a></li>
         </div>
         <div class="col-md-8"> <!--Body content-->
+          <table border="0" cellspacing="1" cellpadding="5" width="700" style="border-bottom:1px solid #003300; border-top:1px solid #003300;">
+            <thead>
+              <tr>
+                <td></td>
+                <td>Голова</td>
+                <td>Туловище</td>
+                <td>Левая рука</td>
+                <td>Правая рука</td>
+                <td>Левая ноги</td>
+                <td>Правая ноги</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Броня</td>
+                <td>2.0</td>
+                <td>6.0</td>
+                <td>4.0</td>
+                <td>4.0</td>
+                <td>5.0</td>
+                <td>5.0</td>
+              </tr>
+              <tr>
+                <td>Маскировка</td>
+                <td>5.0</td>
+                <td>2.0</td>
+                <td>1.0</td>
+                <td>1.0</td>
+                <td>5.0</td>
+                <td>5.0</td>
+              </tr>
+            </tbody>
+          </table>
+          <p></p>
+          <p><b>Нагрузка</b>: 13,386 / 36,0 кг</p>
+          <p></p>
           <div><b>Текущая экипировка</b></div>
           <p></p>
               <table class="table table-condensed">
@@ -144,8 +183,65 @@
                 </tbody>
               </table>
           <p></p>
-          <div><b>Предметы с собой [2/25]</b></div>
+          <p><b>Предметы с компонентами: </b></p>
+          <table>
+          </table>
           <p></p>
+          <div><b>Предметы с собой [2/75]</b></div>
+
+          <p></p>
+          <div class="btn-group">
+            <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">Сортировка <span class="caret"></span></button>
+            <ul class="dropdown-menu" role="menu">
+              <li><a href="#">Оружие</a></li>
+              <li><a href="#">Одежда</a></li>
+              <li><a href="#">Боеприпасы</a></li>
+              <li><a href="#">Гранаты</a></li>
+              <li><a href="#">Медикаменты</a></li>
+              <li><a href="#">Прочее</a></li>
+              <li class="divider"></li>
+              <li><a href="#">Всё подряд</a></li>
+            </ul>
+          </div>
+          <table class="table table-condensed">
+          <!-- border="0" cellspacing="1" cellpadding="5" width="700" style="border-bottom:1px solid #003300; border-top:1px solid #003300;"-->
+            <thead>
+              <tr>
+                <td>img</td>
+                <td>Предмет</td>
+                <td>Описания</td>
+                <td>Действие</td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td><img src=/></td>
+                <td><a href="#">ТК</a></td>
+                <td>
+                  <li>Ячейка: Левая рука, Правая рука, Кобура</li>
+                  <li>Масса: 0,423 кг</li>
+                  <li>Прочность: 0/10</li>
+                </td>
+                <td>
+                  <a>Экипировать</a>
+                  <a href="#"><span class="glyphicon glyphicon-circle-arrow-down" title="Разрядить"></span></a>
+                  <a href="#"><span class="glyphicon glyphicon-wrench" title="Вынуть вложенное"></span></a>
+                </td>
+              </tr>
+              <tr>
+                <td><img src=/></td>
+                <td><a href="#">Тротиловая шашка</a></td>
+                <td>
+                  <li>Ячейка: Левая рука, Правая рука, Ячейка гранатной сумки</li>
+                  <li>Масса: 1,0 кг</li>
+                  <li>Прочность: 0/1</li>
+                </td>
+                <td>
+                  <a>Экипировать</a>
+                </td>
+              </tr>
+            </tbody>
+          </table>
         </div>
       </div> 
     </div>     
